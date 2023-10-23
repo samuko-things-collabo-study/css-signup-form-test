@@ -1,0 +1,94 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #8DF1F6;
+
+  font-family: 'Montserrat', sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 0.8em;
+  color: rgba(66, 66, 66, 1);
+}
+
+.main-container {
+  background-color: #f2fcfc;
+  width: 75%;
+
+  display: flex;
+  border-radius: 15px;
+  padding: 70px 0px;
+}
+
+section, form {
+  width: 50%;
+  /* border: 1px solid red; */
+  padding: 0px 70px;
+}
+
+
+img {
+  width: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.testimonial h3, .testimonial p {
+  text-align: center;
+  line-height: 1.8em;
+}
+
+/* .signup-form h2{
+  
+  color: red;
+  border: 1px solid red;
+} */
+
+.signup-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  border-left: 1px solid rgba(220, 220, 220, 1);
+  padding: none;
+  margin: none;
+  /* box-shadow: 1px 0px 2px 1px rgba(0, 0, 0, 0.2); */
+  /* padding-bottom: 10px; */
+}
+
+.text-input {
+  border: none;
+  background-color: rgba(0,0,0,0);
+  border-bottom: 1px solid rgba(220, 220, 220, 1);
+  /* border: 1px solid red; */
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.checkbox-input {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: left;
+  line-height: 20px;
+  font-size: 0.7em;
+}
+
+input[type="checkbox"] {
+  /* border: 1px solid rgba(0,0,0,1); */
+  /* background-color: red; */
+  margin-right: 10px;
+}
+
+.signup-form button {
+  border: none;
+  background-color: #0245A3;
+  color: white;
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 40px;
+  font-weight: bold;
+  font-size: 0.6rem;
+}
