@@ -1,8 +1,3 @@
 # css-signup-form-test
 
-### ohans design:
-![ohans-signup-form](./assets/images/ohans-signup-form.png)
-
-
-### my design:
-![ohans-signup-form](./assets/images/samuko-signup-form.png)
+> view the page through this link -> [css-signup-form-test](https://samuko-things-collabo-study.github.io/css-signup-form-test/)
